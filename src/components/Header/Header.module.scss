@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: 'Nunito sans', sans-serif;
+    margin: 0;
+    background-color: #DAD7CD;
+    margin-bottom: 10px;
+    &__title{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__search{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+    }
+
+    img{
+        margin: 30px;
+        border-radius: 20px;
+        border: 1px solid black;
+        height: 200px;
+    }
+    h1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: end;
+        justify-content: space-between;
+        font-size: 50px;
+        letter-spacing: 30px;
+        height: 30vh;
+        margin-bottom: 30px;
+        color: #3A5A40;
+    }
+    p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+
+}

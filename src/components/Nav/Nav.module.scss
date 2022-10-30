@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+    position: fixed;
+    background-color: rgba($color: white, $alpha: 0.4);
+    backdrop-filter: blur(6px);
+    z-index: 2;
+    div{
+        cursor: pointer;
+    }
+    :first-child{
+        margin-right: auto;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    :last-child{
+        margin-right: 30px;
+    }
+ &__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+    &:hover{
+        color: #588157;
+        transition: 0.5s;
+    }
+ }   
+}

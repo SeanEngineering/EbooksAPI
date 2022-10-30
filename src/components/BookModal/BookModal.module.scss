@@ -1,0 +1,44 @@
+.container{
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    height: auto;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: auto;
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    &__image{
+        padding-top: 30px;
+        &__none{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: auto;
+        }
+    }
+    &__buttons{
+        // background-color: red;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        height: 100px;
+    }
+}

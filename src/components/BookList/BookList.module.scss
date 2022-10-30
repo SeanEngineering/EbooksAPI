@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 100px;
+    height: auto;
+    width: 100vw;
+    scroll-behavior: smooth;;
+    position: relative;
+    margin-bottom: 50px;
+    transition: 0.1s;
+}

@@ -1,0 +1,30 @@
+.main{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    &__loading{
+        h3{
+            padding: 0px;
+            margin: 0px;
+        }
+        img{
+            height: auto;
+            width: 600px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+    }
+ 
+    &__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    };
+}

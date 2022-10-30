@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    gap: 30px;
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    &__image{
+        &__none{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: auto;
+        }
+    }
+    &__buttons{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        height: 100px;
+    }
+}
